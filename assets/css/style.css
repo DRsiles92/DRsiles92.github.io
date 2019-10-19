@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/images/wood_pattern_@2X.png");
+  background-image: url("../images/wood_pattern_@2X.png");
   /* background-color: purple; */
  }
 
@@ -62,19 +62,10 @@ h2 {
 
 .me1{   
   float: left;
+  margin-right: 10px;
 }
 
-footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #666666;
-   color: white;
-   text-align: center;
-   margin: auto;
-   border-top: 8px solid #4aaaa5;
-}
+
 
 /* portfolio styling */
 .card{
@@ -91,6 +82,11 @@ position: relative;
 img{
   height: 200px;
   width: 270px;
+}
+
+.me1{
+  height: 220px;
+  width: 200px;
 }
 .img-caption{
   height: 40px;
@@ -127,4 +123,15 @@ input[type=text], select {
 label
 {
   margin-bottom: 0px;
+}
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #666666;
+   color: white;
+   text-align: center;
+   margin: auto;
+   border-top: 8px solid #4aaaa5;
 }
